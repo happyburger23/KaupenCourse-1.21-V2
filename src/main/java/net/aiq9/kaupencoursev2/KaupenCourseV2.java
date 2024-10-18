@@ -1,5 +1,7 @@
 package net.aiq9.kaupencoursev2;
 
+import net.aiq9.kaupencoursev2.item.ModItemGroups;
+import net.aiq9.kaupencoursev2.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,9 @@ public class KaupenCourseV2 implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		//LOGGER.info("Hello Fabric world!");
+
+		ModItems.registerModItems();
+		ModItemGroups.registerModItemGroups();
 	}
 }

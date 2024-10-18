@@ -1,0 +1,40 @@
+package net.aiq9.kaupencoursev2.item;
+
+import net.aiq9.kaupencoursev2.KaupenCourseV2;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
+import net.minecraft.util.Identifier;
+
+public class ModItemGroups {
+    public static final ItemGroup FLUORITE_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(KaupenCourseV2.MOD_ID, "fluorite_item_group"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.fluorite_items"))
+                    .icon(() -> new ItemStack(ModItems.FLUORITE))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.RAW_FLUORITE);
+                        entries.add(ModItems.FLUORITE);
+                    })
+                    .build());
+
+    public static final ItemGroup FLUORITE_BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(KaupenCourseV2.MOD_ID, "fluorite_block_group"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.fluorite_blocks"))
+                    .icon(() -> new ItemStack(Blocks.AMETHYST_BLOCK))
+                    .entries((displayContext, entries) -> {
+                        entries.add(Blocks.AMETHYST_BLOCK);
+                        entries.add(Blocks.AMETHYST_CLUSTER);
+                    })
+                    .build());
+
+
+    public static void registerModItemGroups() {
+        KaupenCourseV2.LOGGER.info("Registering Mod Item Groups for " + KaupenCourseV2.MOD_ID);
+
+        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::customIngredients);
+    }
+}
