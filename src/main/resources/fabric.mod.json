@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "kaupen-course-v2",
+	"version": "${version}",
+	"name": "Kaupen Course 1.21 Version 2",
+	"description": "This is version 2 because the first one broke for some reason",
+	"authors": [
+		"happyburger23 or aiq9"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/kaupen-course-v2/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.aiq9.kaupencoursev2.KaupenCourseV2"
+		],
+		"fabric-datagen": [
+			"net.aiq9.kaupencoursev2.KaupenCourseV2DataGenerator"
+		]
+	},
+	"mixins": [
+		"kaupen-course-v2.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
