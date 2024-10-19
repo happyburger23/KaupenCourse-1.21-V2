@@ -19,6 +19,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_FLUORITE);
                         entries.add(ModItems.FLUORITE);
+                        entries.add(ModItems.CHAINSAW);
                     })
                     .build());
 

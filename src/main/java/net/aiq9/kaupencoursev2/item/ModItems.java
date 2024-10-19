@@ -1,6 +1,7 @@
 package net.aiq9.kaupencoursev2.item;
 
 import net.aiq9.kaupencoursev2.KaupenCourseV2;
+import net.aiq9.kaupencoursev2.item.custom.ChainsawItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -13,6 +14,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item FLUORITE = registerItem("fluorite", new Item(new Item.Settings()));
     public static final Item RAW_FLUORITE = registerItem("raw_fluorite", new Item(new Item.Settings()));
+
+    public static final Item CHAINSAW = registerItem("chainsaw", new ChainsawItem(new Item.Settings()));
 
     //---ITEM REGISTRY HELPER METHOD
     private static Item registerItem(String name, Item item) {
