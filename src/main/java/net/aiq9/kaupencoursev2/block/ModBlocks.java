@@ -1,8 +1,10 @@
 package net.aiq9.kaupencoursev2.block;
 
 import net.aiq9.kaupencoursev2.KaupenCourseV2;
+import net.aiq9.kaupencoursev2.block.custom.MagicBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -35,6 +37,9 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(6, 8),
                     AbstractBlock.Settings.create()
                             .sounds(BlockSoundGroup.STONE).strength(6f).requiresTool()));
+
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.ANVIL).strength(1f).requiresTool()));
 
     //---BLOCK HELPER METHODS
     private static Block registerBlock(String name, Block block) {
