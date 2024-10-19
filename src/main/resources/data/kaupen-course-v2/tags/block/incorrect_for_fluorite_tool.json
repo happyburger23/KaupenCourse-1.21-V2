@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:incorrect_for_iron_tool"
+  ],
+  "remove": [
+    "kaupen-course-v2:needs_fluorite_tool"
+  ]
+}
