@@ -4,8 +4,10 @@ import net.aiq9.kaupencoursev2.KaupenCourseV2;
 import net.aiq9.kaupencoursev2.item.custom.ChainsawItem;
 import net.aiq9.kaupencoursev2.item.custom.FluoriteHammerItem;
 import net.aiq9.kaupencoursev2.item.custom.FluoritePaxelItem;
+import net.aiq9.kaupencoursev2.item.custom.ModEffectSwordItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
@@ -31,8 +33,8 @@ public class ModItems {
     });
 
     public static final Item FLUORITE_SWORD = registerItem("fluorite_sword",
-            new SwordItem(ModToolMaterials.FLUORITE,
-                    new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 3, -2.4f))));
+            new ModEffectSwordItem(ModToolMaterials.FLUORITE,
+                    new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 3, -2.4f)), StatusEffects.LEVITATION));
 
     public static final Item FLUORITE_PICKAXE = registerItem("fluorite_pickaxe",
             new PickaxeItem(ModToolMaterials.FLUORITE,
