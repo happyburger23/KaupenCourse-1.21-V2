@@ -69,7 +69,6 @@ public class ModModelDatagen extends FabricModelProvider {
         itemModelGenerator.register(ModItems.KAUPEN_SMITHING_TEMPLATE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.DATA_TABLET, Models.HANDHELD);
-
+        //itemModelGenerator.register(ModItems.DATA_TABLET, Models.HANDHELD);
     }
 }
