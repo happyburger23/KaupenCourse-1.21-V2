@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "kaupen-course-v2:block/fluorite_block"
+  }
+}
