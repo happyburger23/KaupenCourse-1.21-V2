@@ -65,6 +65,7 @@ public class ModItems {
     public static final Item FLUORITE_LEGGINGS = registerItem("fluorite_leggings", new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
     public static final Item FLUORITE_BOOTS = registerItem("fluorite_boots", new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
 
+    public static final Item FLUORITE_HORSE_ARMOR = registerItem("fluorite_horse_armor", new AnimalArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings()));
 
     //---ITEM REGISTRY HELPER METHOD
     private static Item registerItem(String name, Item item) {

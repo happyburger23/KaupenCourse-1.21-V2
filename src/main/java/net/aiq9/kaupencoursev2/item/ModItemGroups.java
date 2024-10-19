@@ -35,6 +35,7 @@ public class ModItemGroups {
                         entries.add(ModItems.FLUORITE_CHEST_PLATE);
                         entries.add(ModItems.FLUORITE_LEGGINGS);
                         entries.add(ModItems.FLUORITE_BOOTS);
+                        entries.add(ModItems.FLUORITE_HORSE_ARMOR);
                     })
                     .build());
 

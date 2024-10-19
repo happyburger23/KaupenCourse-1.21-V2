@@ -1,7 +1,7 @@
-// 1.21	2024-10-19T12:06:04.378948	Kaupen Course 1.21 Version 2/Block Loot Tables
+// 1.21	2024-10-19T12:15:22.315445	Kaupen Course 1.21 Version 2/Block Loot Tables
 9a9c3713b40915047270264abb6d91a51825db39 data/kaupen-course-v2/loot_table/blocks/fluorite_end_ore.json
 b6027f7d85370c07fb2e49692ccf88f96f69b67f data/kaupen-course-v2/loot_table/blocks/fluorite_ore.json
 7b7bcc495bfa243d816fbfc017c871f0b77a4b10 data/kaupen-course-v2/loot_table/blocks/fluorite_nether_ore.json
-44a28bbfe962264616c23caa6edcb15f9c494250 data/kaupen-course-v2/loot_table/blocks/fluorite_block.json
 507c84eb7c550a2044bb7b060964299a7c1a740e data/kaupen-course-v2/loot_table/blocks/magic_block.json
+44a28bbfe962264616c23caa6edcb15f9c494250 data/kaupen-course-v2/loot_table/blocks/fluorite_block.json
 1142eb74b3d2179b31af50de7cc8cc717b796cbc data/kaupen-course-v2/loot_table/blocks/fluorite_deepslate_ore.json

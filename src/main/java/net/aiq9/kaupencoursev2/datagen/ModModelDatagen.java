@@ -58,5 +58,7 @@ public class ModModelDatagen extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.FLUORITE_CHEST_PLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.FLUORITE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.FLUORITE_BOOTS));
+
+        itemModelGenerator.register(ModItems.FLUORITE_HORSE_ARMOR, Models.GENERATED);
     }
 }
