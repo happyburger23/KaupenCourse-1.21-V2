@@ -69,5 +69,12 @@
   "tooltip.kaupen-course-v2.strawberry.tooltip.1": "Tastes great!",
 
   "sounds.kaupen-course-v2.chainsaw_cut": "Chainsaw Sounds",
-  "sounds.kaupen-course-v2.chainsaw_pull": "Pulling Chainsaw Sounds"
+  "sounds.kaupen-course-v2.chainsaw_pull": "Pulling Chainsaw Sounds",
+
+  "sounds.kaupen-course-v2.magic_block_break": "Magic Block Broken",
+  "sounds.kaupen-course-v2.magic_block_fall": "Magic Block Fallen Onto",
+  "sounds.kaupen-course-v2.magic_block_hit": "Magic Block Hit",
+  "sounds.kaupen-course-v2.magic_block_place": "Magic Block Placed",
+  "sounds.kaupen-course-v2.magic_block_step": "Magic Block Stepped On"
+
 }

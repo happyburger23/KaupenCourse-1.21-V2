@@ -4,6 +4,7 @@ import net.aiq9.kaupencoursev2.KaupenCourseV2;
 import net.aiq9.kaupencoursev2.block.custom.FluoriteLampBlock;
 import net.aiq9.kaupencoursev2.block.custom.MagicBlock;
 import net.aiq9.kaupencoursev2.block.custom.StrawberryCropBlock;
+import net.aiq9.kaupencoursev2.sound.ModSounds;
 import net.minecraft.block.*;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -40,7 +41,7 @@ public class ModBlocks {
                             .sounds(BlockSoundGroup.STONE).strength(6f).requiresTool()));
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
-            new MagicBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.SCULK).strength(1f).requiresTool()));
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(ModSounds.MAGIC_BLOCK_SOUNDS)));
 
     public static final Block FLUORITE_LAMP = registerBlock("fluorite_lamp",
             new FluoriteLampBlock(AbstractBlock.Settings.create()
