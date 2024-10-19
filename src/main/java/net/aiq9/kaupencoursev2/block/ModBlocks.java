@@ -1,6 +1,7 @@
 package net.aiq9.kaupencoursev2.block;
 
 import net.aiq9.kaupencoursev2.KaupenCourseV2;
+import net.aiq9.kaupencoursev2.block.custom.FluoriteLampBlock;
 import net.aiq9.kaupencoursev2.block.custom.MagicBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -37,6 +38,10 @@ public class ModBlocks {
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.SCULK).strength(1f).requiresTool()));
+
+    public static final Block FLUORITE_LAMP = registerBlock("fluorite_lamp",
+            new FluoriteLampBlock(AbstractBlock.Settings.create()
+                    .strength(1f).requiresTool().luminance(state -> state.get(FluoriteLampBlock.CLICKED) ? 15 : 0)));
 
     public static final Block FLUORITE_STAIRS = registerBlock("fluorite_stairs",
             new StairsBlock(ModBlocks.FLUORITE_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(2).requiresTool()));

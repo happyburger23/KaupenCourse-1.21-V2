@@ -3,7 +3,6 @@ package net.aiq9.kaupencoursev2.item;
 import net.aiq9.kaupencoursev2.KaupenCourseV2;
 import net.aiq9.kaupencoursev2.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -63,9 +62,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLUORITE_END_ORE);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
-
-                        entries.add(Blocks.AMETHYST_BLOCK);
-                        entries.add(Blocks.AMETHYST_CLUSTER);
+                        entries.add(ModBlocks.FLUORITE_LAMP);
                     })
                     .build());
 

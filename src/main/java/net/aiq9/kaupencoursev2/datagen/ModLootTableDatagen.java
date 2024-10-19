@@ -30,6 +30,7 @@ public class ModLootTableDatagen extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.FLUORITE_BLOCK);
         addDrop(ModBlocks.MAGIC_BLOCK);
+        addDrop(ModBlocks.FLUORITE_LAMP);
 
         addDrop(ModBlocks.FLUORITE_ORE, oreDrops(ModBlocks.FLUORITE_ORE, ModItems.RAW_FLUORITE));
         addDrop(ModBlocks.FLUORITE_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.FLUORITE_DEEPSLATE_ORE, ModItems.RAW_FLUORITE, 3, 6));

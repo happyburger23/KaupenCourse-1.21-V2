@@ -39,7 +39,9 @@
   "block.kaupen-course-v2.fluorite_ore": "Fluorite Ore",
   "block.kaupen-course-v2.fluorite_nether_ore": "Fluorite Nether Ore",
   "block.kaupen-course-v2.fluorite_end_ore": "Fluorite End Ore",
+
   "block.kaupen-course-v2.magic_block": "Magic Block",
+  "block.kaupen-course-v2.fluorite_lamp": "Fluorite Lamp",
 
   "itemGroup.fluorite_items": "Fluorite Items",
   "itemGroup.fluorite_blocks": "Fluorite Blocks",

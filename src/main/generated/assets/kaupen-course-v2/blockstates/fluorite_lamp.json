@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "kaupen-course-v2:block/fluorite_lamp"
+    },
+    "clicked=true": {
+      "model": "kaupen-course-v2:block/fluorite_lamp_on"
+    }
+  }
+}
