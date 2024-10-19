@@ -2,6 +2,7 @@ package net.aiq9.kaupencoursev2.item;
 
 import net.aiq9.kaupencoursev2.KaupenCourseV2;
 import net.aiq9.kaupencoursev2.item.custom.ChainsawItem;
+import net.aiq9.kaupencoursev2.item.custom.FluoritePaxelItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
@@ -48,6 +49,11 @@ public class ModItems {
                     new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 0, -3.0f))));
 
     public static final Item STARLIGHT_ASHES = registerItem("starlight_ashes", new Item(new Item.Settings()));
+
+
+    public static final Item FLUORITE_PAXEL = registerItem("fluorite_paxel",
+            new FluoritePaxelItem(ModToolMaterials.FLUORITE,
+                    new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 4, -2.5f))));
 
     //---ITEM REGISTRY HELPER METHOD
     private static Item registerItem(String name, Item item) {

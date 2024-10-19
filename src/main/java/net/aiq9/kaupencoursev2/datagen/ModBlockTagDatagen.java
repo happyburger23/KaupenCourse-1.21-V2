@@ -1,6 +1,7 @@
 package net.aiq9.kaupencoursev2.datagen;
 
 import net.aiq9.kaupencoursev2.block.ModBlocks;
+import net.aiq9.kaupencoursev2.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -35,5 +36,10 @@ public class ModBlockTagDatagen extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.FLUORITE_WALL);
         getOrCreateTagBuilder(BlockTags.DOORS).add(ModBlocks.FLUORITE_DOOR);
         getOrCreateTagBuilder(BlockTags.TRAPDOORS).add(ModBlocks.FLUORITE_TRAPDOOR);
+
+        getOrCreateTagBuilder(ModTags.Blocks.PAXEL_MINEABLE)
+                .forceAddTag(BlockTags.PICKAXE_MINEABLE)
+                .forceAddTag(BlockTags.AXE_MINEABLE)
+                .forceAddTag(BlockTags.SHOVEL_MINEABLE);
     }
 }
