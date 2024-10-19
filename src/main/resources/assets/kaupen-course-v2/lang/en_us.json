@@ -13,5 +13,12 @@
   "block.kaupen-course-v2.magic_block": "Magic Block",
 
   "itemGroup.fluorite_items": "Fluorite Items",
-  "itemGroup.fluorite_blocks": "Fluorite Blocks"
+  "itemGroup.fluorite_blocks": "Fluorite Blocks",
+
+  "tooltip.kaupen-course-v2.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",
+  "tooltip.kaupen-course-v2.chainsaw.tooltip.1": "This Chainsaw will cut down trees fast!",
+  "tooltip.kaupen-course-v2.chainsaw.tooltip.2": "§oChainsaw go vrooom!§r",
+
+  "tooltip.kaupen-course-v2.magic_block.tooltip.1": "This block is §9magical§r!",
+  "tooltip.kaupen-course-v2.strawberry.tooltip.1": "Tastes great!"
 }
