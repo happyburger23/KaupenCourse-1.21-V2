@@ -1,4 +1,4 @@
-// 1.21	2024-10-19T12:15:22.308237	Kaupen Course 1.21 Version 2/Recipes
+// 1.21	2024-10-19T12:41:19.091345	Kaupen Course 1.21 Version 2/Recipes
 4284eeb2b0ede257dbef915d66008b2feb7d8b94 data/kaupen-course-v2/recipe/fluorite_block.json
 c3d574aa0dd48da00e415f04165b66fe92609a03 data/kaupen-course-v2/advancement/recipes/misc/fluorite_from_blasting_fluorite_deepslate_ore.json
 4293de7f0e0393988f1eb6283aff133a2b70c08b data/kaupen-course-v2/advancement/recipes/misc/fluorite_from_smelting_fluorite_nether_ore.json
@@ -6,7 +6,9 @@ b3af0a8db111590cde45e89e471743224846b996 data/kaupen-course-v2/advancement/recip
 4df289692a02af2a30ff1a383c7e6ca4e5739645 data/kaupen-course-v2/recipe/fluorite_from_smelting_fluorite_ore.json
 5dcb92afefa2b4d86a3c57dd06f0ce57a7f10781 data/kaupen-course-v2/recipe/fluorite_from_blasting_fluorite_end_ore.json
 85d96c07a75959ab538487746e86232d8ec08de1 data/kaupen-course-v2/advancement/recipes/misc/fluorite_from_smelting_raw_fluorite.json
+291f5b8d0881375421642e97a66c9e77d3db10ec data/kaupen-course-v2/recipe/kaupen.json
 027f7acbc4e558d2638457ff951001fefdf6408b data/kaupen-course-v2/advancement/recipes/misc/fluorite_from_blasting_fluorite_end_ore.json
+f34fdd19d9e1e7a58367c708dfeb66dd6eaa600b data/kaupen-course-v2/advancement/recipes/misc/kaupen.json
 33b3787824b25e16b9a1d3ed0a33508844dac83e data/kaupen-course-v2/advancement/recipes/misc/fluorite_from_blasting_raw_fluorite.json
 cab882fe7d27c98279e1ae1b2c33cf8dfe68a89d data/kaupen-course-v2/recipe/fluorite_from_blasting_fluorite_ore.json
 e003fe13821c231b901de1e33340867c8760a12d data/kaupen-course-v2/recipe/fluorite_from_blasting_raw_fluorite.json

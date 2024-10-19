@@ -29,5 +29,8 @@ public class ModItemTagDatagen extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.FLUORITE_CHEST_PLATE)
                 .add(ModItems.FLUORITE_LEGGINGS)
                 .add(ModItems.FLUORITE_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS).add(ModItems.FLUORITE);
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES).add(ModItems.KAUPEN_SMITHING_TEMPLATE);
     }
 }

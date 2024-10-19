@@ -20,6 +20,10 @@
 
   "item.kaupen-course-v2.fluorite_horse_armor": "Fluorite Horse Armor",
 
+  "item.kaupen-course-v2.kaupen_armor_trim_smithing_template": "Kaupen Armor Trim Smithing Template",
+  "trim_material.kaupen-course-v2.fluorite": "Fluorite Material",
+  "trim_pattern.kaupen-course-v2.kaupen": "Kaupen Armor Pattern",
+
   "block.kaupen-course-v2.fluorite_block": "Fluorite Block",
   "block.kaupen-course-v2.fluorite_stairs": "Fluorite Stairs",
   "block.kaupen-course-v2.fluorite_slab": "Fluorite Slab",

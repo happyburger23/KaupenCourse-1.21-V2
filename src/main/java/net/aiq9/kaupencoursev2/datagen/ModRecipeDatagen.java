@@ -1,5 +1,6 @@
 package net.aiq9.kaupencoursev2.datagen;
 
+import net.aiq9.kaupencoursev2.KaupenCourseV2;
 import net.aiq9.kaupencoursev2.block.ModBlocks;
 import net.aiq9.kaupencoursev2.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -10,6 +11,7 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.util.Identifier;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -34,6 +36,8 @@ public class ModRecipeDatagen extends FabricRecipeProvider {
         //9x9 fluorite block, and fluorite items from the block
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.FLUORITE, RecipeCategory.DECORATIONS, ModBlocks.FLUORITE_BLOCK);
 
+        offerSmithingTrimRecipe(exporter, ModItems.KAUPEN_SMITHING_TEMPLATE, Identifier.of(KaupenCourseV2.MOD_ID, "kaupen"));
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_FLUORITE)
                 .pattern("SSS")
                 .pattern("SFS")
@@ -43,5 +47,6 @@ public class ModRecipeDatagen extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.STONE), conditionsFromItem(Blocks.STONE))
                 .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
                 .offerTo(exporter);
+
     }
 }

@@ -1,0 +1,8 @@
+{
+  "asset_id": "kaupen-course-v2:kaupen",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.kaupen-course-v2.kaupen"
+  },
+  "template_item": "kaupen-course-v2:kaupen_armor_trim_smithing_template"
+}

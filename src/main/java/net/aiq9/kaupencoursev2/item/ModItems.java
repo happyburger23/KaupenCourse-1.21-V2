@@ -12,6 +12,7 @@ import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -66,6 +67,9 @@ public class ModItems {
     public static final Item FLUORITE_BOOTS = registerItem("fluorite_boots", new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
 
     public static final Item FLUORITE_HORSE_ARMOR = registerItem("fluorite_horse_armor", new AnimalArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings()));
+
+    public static final Item KAUPEN_SMITHING_TEMPLATE = registerItem("kaupen_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(KaupenCourseV2.MOD_ID, "kaupen"), FeatureFlags.VANILLA));
 
     //---ITEM REGISTRY HELPER METHOD
     private static Item registerItem(String name, Item item) {
