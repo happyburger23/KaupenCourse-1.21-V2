@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kaupen-course-v2:block/fluorite_block"
+    }
+  }
+}

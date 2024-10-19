@@ -2,6 +2,10 @@
   "item.kaupen-course-v2.fluorite": "Fluorite",
   "item.kaupen-course-v2.raw_fluorite": "Raw Fluorite",
 
+  "block.kaupen-course-v2.fluorite_block": "Fluorite Block",
+  "block.kaupen-course-v2.fluorite_deepslate_ore": "Fluorite Deepslate Ore",
+  "block.kaupen-course-v2.fluorite_ore": "Fluorite Ore",
+
   "itemGroup.fluorite_items": "Fluorite Items",
   "itemGroup.fluorite_blocks": "Fluorite Blocks"
 }

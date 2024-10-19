@@ -1,6 +1,7 @@
 package net.aiq9.kaupencoursev2.item;
 
 import net.aiq9.kaupencoursev2.KaupenCourseV2;
+import net.aiq9.kaupencoursev2.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
@@ -24,8 +25,12 @@ public class ModItemGroups {
     public static final ItemGroup FLUORITE_BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(KaupenCourseV2.MOD_ID, "fluorite_block_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.fluorite_blocks"))
-                    .icon(() -> new ItemStack(Blocks.AMETHYST_BLOCK))
+                    .icon(() -> new ItemStack(ModBlocks.FLUORITE_BLOCK))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.FLUORITE_BLOCK);
+                        entries.add(ModBlocks.FLUORITE_ORE);
+                        entries.add(ModBlocks.FLUORITE_DEEPSLATE_ORE);
+
                         entries.add(Blocks.AMETHYST_BLOCK);
                         entries.add(Blocks.AMETHYST_CLUSTER);
                     })
