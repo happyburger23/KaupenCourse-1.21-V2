@@ -1,10 +1,10 @@
-// 1.21	2024-10-19T13:10:02.709747	Kaupen Course 1.21 Version 2/Tags for minecraft:block
+// 1.21	2024-10-19T13:52:46.828234	Kaupen Course 1.21 Version 2/Tags for minecraft:block
 f69959dc055c30a72e8022537c7218ec5b456d33 data/minecraft/tags/block/mineable/pickaxe.json
 661d23268caea872b9ecb21a4725a5452ece418d data/minecraft/tags/block/fences.json
 82362cfbd1836db13c7e9d36c8712821e795ac55 data/kaupen-course-v2/tags/block/paxel_mineable.json
 d40e1d97d62f63891aa382874f46f24d0988550d data/minecraft/tags/block/needs_iron_tool.json
-4525399ed4673b2b0b8c2018e3ef91794ad04acc data/minecraft/tags/block/trapdoors.json
 04c6afd706f20167f9e5e2ab495c5fb5b7eb06ee data/minecraft/tags/block/fence_gates.json
-74a17534cd69b98cc7b4d226617c9018402f2928 data/minecraft/tags/block/walls.json
+4525399ed4673b2b0b8c2018e3ef91794ad04acc data/minecraft/tags/block/trapdoors.json
 9b1a9e5c307745f3508b7911602be2dd10050f1a data/minecraft/tags/block/doors.json
+74a17534cd69b98cc7b4d226617c9018402f2928 data/minecraft/tags/block/walls.json
 ede32adf7519e2ef0668aefe2f876bcaee915d75 data/minecraft/tags/block/needs_diamond_tool.json

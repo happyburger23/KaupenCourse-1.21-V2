@@ -1,6 +1,7 @@
 package net.aiq9.kaupencoursev2;
 
 import net.aiq9.kaupencoursev2.block.ModBlocks;
+import net.aiq9.kaupencoursev2.component.ModDataComponentTypes;
 import net.aiq9.kaupencoursev2.item.ModItemGroups;
 import net.aiq9.kaupencoursev2.item.ModItems;
 import net.aiq9.kaupencoursev2.util.HammerUsageEvent;
@@ -17,8 +18,6 @@ public class KaupenCourseV2 implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		//LOGGER.info("Hello Fabric world!");
-
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemGroups();
 		ModBlocks.registerModBlocks();
@@ -26,5 +25,7 @@ public class KaupenCourseV2 implements ModInitializer {
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600); //log 300, coal 1600
 
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
+
+		ModDataComponentTypes.registerDataComponentTypes();
 	}
 }

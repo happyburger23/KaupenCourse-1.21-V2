@@ -1,8 +1,8 @@
-// 1.21	2024-10-19T13:10:02.714678	Kaupen Course 1.21 Version 2/Model Definitions
+// 1.21	2024-10-19T13:52:46.83125	Kaupen Course 1.21 Version 2/Model Definitions
 9f5917e64418557c5024b6debd2da2ad441b5d3e assets/kaupen-course-v2/models/item/fluorite_helmet_gold_trim.json
 d5ff3cd9b46879dc8e0cda7ea47e98027e2573ae assets/kaupen-course-v2/models/item/fluorite_boots_emerald_trim.json
-e8667d432b87a2946e0ea7c9383a2792d0ab9b3d assets/kaupen-course-v2/models/item/starlight_ashes.json
 1748f4c0840103bc812c39e5cdcce3559e526ce1 assets/kaupen-course-v2/models/item/fluorite_deepslate_ore.json
+e8667d432b87a2946e0ea7c9383a2792d0ab9b3d assets/kaupen-course-v2/models/item/starlight_ashes.json
 158020391a82fe833fea9e242c7d2bf00c73399e assets/kaupen-course-v2/models/item/fluorite_boots_iron_trim.json
 ef78f79b63107e87bc3c22965774a99861682175 assets/kaupen-course-v2/models/item/fluorite_boots_lapis_trim.json
 f8890f80fbd28cd0949a4323d7a973c086e84755 assets/kaupen-course-v2/models/item/fluorite_axe.json
@@ -28,8 +28,8 @@ c9ecd3c210f925a1e304d7dacdeaec60edcaa4c5 assets/kaupen-course-v2/models/item/flu
 b015d213c7008e6b6165af81f157f33ebbaab43c assets/kaupen-course-v2/models/item/fluorite_fence.json
 bee762b05f85d800cc478366a9d6c4504e1f9585 assets/kaupen-course-v2/models/item/fluorite_chestplate_quartz_trim.json
 ad72aa1504a60a7c680e38543e78a3969b84e832 assets/kaupen-course-v2/models/item/chainsaw.json
-8d40e96c2129d14e683ccf821c963a2e61aa7f0b assets/kaupen-course-v2/models/block/fluorite_nether_ore.json
 a1e945451b2efaec223fc29f823239fbf0ef9ae0 assets/kaupen-course-v2/models/block/fluorite_button_inventory.json
+8d40e96c2129d14e683ccf821c963a2e61aa7f0b assets/kaupen-course-v2/models/block/fluorite_nether_ore.json
 fd68ad5701d3a959d865097a2bedf24b33c223c7 assets/kaupen-course-v2/models/block/fluorite_door_top_right.json
 e4afbb4721865e3c7a47ddc87f80711d3c20aea2 assets/kaupen-course-v2/blockstates/fluorite_wall.json
 d8ddc234b6397c885fb6d3f10645c3368c023c13 assets/kaupen-course-v2/models/block/fluorite_fence_gate_wall.json
@@ -80,6 +80,7 @@ f6cd5696abafaf780bb0f1bebc1c38dd2da22968 assets/kaupen-course-v2/models/block/fl
 0419d6cdc860cc0270676433227e39bccadf36bf assets/kaupen-course-v2/models/item/fluorite_helmet_redstone_trim.json
 9d97bd1cd27f5a588e68f8f168760f8c8e26c0e7 assets/kaupen-course-v2/models/block/fluorite_button_pressed.json
 f74cdacd7564cd61bcf6c8b31e929c60d3d7ff97 assets/kaupen-course-v2/models/item/fluorite_leggings_amethyst_trim.json
+7ebce5158d181b24221b2a2ace579644b7f8847f assets/kaupen-course-v2/models/item/metal_detector.json
 1ff590bf5755a8681bea711a310f1770aa46cc40 assets/kaupen-course-v2/models/item/fluorite_hammer.json
 cd116c4a688ee7dac1cfbc46b456236ad107ce21 assets/kaupen-course-v2/models/block/fluorite_slab.json
 23fd0bc19844dd47776093b1bc30a79ee4454e2d assets/kaupen-course-v2/models/item/fluorite_end_ore.json
@@ -87,8 +88,8 @@ cd116c4a688ee7dac1cfbc46b456236ad107ce21 assets/kaupen-course-v2/models/block/fl
 95e49a0a7ad7095c302150e9dff4a1da4716f24b assets/kaupen-course-v2/blockstates/fluorite_trapdoor.json
 f0e74c8a5e69424c3320928381b9aaaf8473b728 assets/kaupen-course-v2/models/block/fluorite_lamp_on.json
 5175ab6a0761c5a59862d9bc44f9c2562c68911a assets/kaupen-course-v2/blockstates/fluorite_lamp.json
-0a0441b3d1d76b78b4791b465d7c0d5cfbf3089d assets/kaupen-course-v2/models/item/kaupen_armor_trim_smithing_template.json
 525abfbd9bc1ca1f44a57edd041f6c45fdec5435 assets/kaupen-course-v2/models/block/fluorite_door_bottom_left.json
+0a0441b3d1d76b78b4791b465d7c0d5cfbf3089d assets/kaupen-course-v2/models/item/kaupen_armor_trim_smithing_template.json
 b34a506df08cf3aebf211a898dc37607ccc60d01 assets/kaupen-course-v2/blockstates/fluorite_end_ore.json
 3bcf9c3af39603960ebd3fea8198f97910930441 assets/kaupen-course-v2/models/item/raw_fluorite.json
 5c91ae4b59b31f8e70b25bc99194f7d2395e7b82 assets/kaupen-course-v2/models/item/fluorite_helmet_quartz_trim.json
@@ -97,9 +98,10 @@ d96b705ba996a6f5447efe3850d12f14b05fd721 assets/kaupen-course-v2/models/item/flu
 bd1a44c4506ef738897bf5c881542d24de0f73f4 assets/kaupen-course-v2/models/block/fluorite_wall_post.json
 a62c79e7553a351d29fc1d821303415d00dd6ed3 assets/kaupen-course-v2/blockstates/fluorite_pressure_plate.json
 12cf48b95a4a78f443984ce9724489c1eb837089 assets/kaupen-course-v2/blockstates/fluorite_button.json
+c68fa30857dc98b1d45737d2c86f0e08f7065a33 assets/kaupen-course-v2/models/item/data_tablet.json
 4b603be190d1493a6960ce8f01480c6dbb425cd0 assets/kaupen-course-v2/models/item/fluorite_leggings_redstone_trim.json
-063893252be00e575750614670705bb1e7a38a55 assets/kaupen-course-v2/models/item/fluorite_helmet_netherite_trim.json
 cfc3ecb3579b878473b8194b962c68eca383d147 assets/kaupen-course-v2/models/block/fluorite_wall_side.json
+063893252be00e575750614670705bb1e7a38a55 assets/kaupen-course-v2/models/item/fluorite_helmet_netherite_trim.json
 7ffd8fd9e2b26e9ccae021bd35699981a86d7231 assets/kaupen-course-v2/models/item/fluorite_horse_armor.json
 98a63d741d8dd267e73f03a193b1a6065a63cd0e assets/kaupen-course-v2/models/item/fluorite_leggings_quartz_trim.json
 2be71272f0ae392a6e85491645a7d84f2a4788d1 assets/kaupen-course-v2/models/block/fluorite_door_bottom_right_open.json
@@ -107,8 +109,8 @@ cfc3ecb3579b878473b8194b962c68eca383d147 assets/kaupen-course-v2/models/block/fl
 2fc16bccee053d622bba0c23d6bf7899a4339a98 assets/kaupen-course-v2/models/item/fluorite_shovel.json
 af32ff1f144c55734a1d7161bcaaac8b59bbc1d8 assets/kaupen-course-v2/models/item/fluorite_chestplate_copper_trim.json
 7eaee2a70b75f7a0427214f647decfec51ab4569 assets/kaupen-course-v2/models/item/fluorite_pickaxe.json
-90649321226f94995ab359cdcffcfb188486df17 assets/kaupen-course-v2/models/item/fluorite_helmet_emerald_trim.json
 0e84dffbea4aa9468a0ad263ec16e869be5cf68c assets/kaupen-course-v2/models/block/fluorite_fence_post.json
+90649321226f94995ab359cdcffcfb188486df17 assets/kaupen-course-v2/models/item/fluorite_helmet_emerald_trim.json
 29e7d9076ca132fd0c0d1197a7d4ef6cc67ca624 assets/kaupen-course-v2/models/block/fluorite_block.json
 f15c624dd634355d921bb3d264cd8879d020b05a assets/kaupen-course-v2/models/item/fluorite_chestplate_lapis_trim.json
 4a44772320142db2e583bbbdbe8b687c4be69e17 assets/kaupen-course-v2/models/block/fluorite_fence_gate.json

@@ -1,10 +1,7 @@
 package net.aiq9.kaupencoursev2.item;
 
 import net.aiq9.kaupencoursev2.KaupenCourseV2;
-import net.aiq9.kaupencoursev2.item.custom.ChainsawItem;
-import net.aiq9.kaupencoursev2.item.custom.FluoriteHammerItem;
-import net.aiq9.kaupencoursev2.item.custom.FluoritePaxelItem;
-import net.aiq9.kaupencoursev2.item.custom.ModEffectSwordItem;
+import net.aiq9.kaupencoursev2.item.custom.*;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.entity.effect.StatusEffects;
@@ -70,6 +67,12 @@ public class ModItems {
 
     public static final Item KAUPEN_SMITHING_TEMPLATE = registerItem("kaupen_armor_trim_smithing_template",
             SmithingTemplateItem.of(Identifier.of(KaupenCourseV2.MOD_ID, "kaupen"), FeatureFlags.VANILLA));
+
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new Item.Settings().maxDamage(200)));
+
+    public static final Item DATA_TABLET = registerItem("data_tablet",
+            new DataTabletItem(new Item.Settings().maxCount(1)));
 
     //---ITEM REGISTRY HELPER METHOD
     private static Item registerItem(String name, Item item) {

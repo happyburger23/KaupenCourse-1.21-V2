@@ -22,6 +22,9 @@ public class ModItemGroups {
                         entries.add(ModItems.STRAWBERRY);
                         entries.add(ModItems.STARLIGHT_ASHES);
 
+                        entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.DATA_TABLET);
+
                         entries.add(ModItems.FLUORITE_SWORD);
                         entries.add(ModItems.FLUORITE_PICKAXE);
                         entries.add(ModItems.FLUORITE_SHOVEL);

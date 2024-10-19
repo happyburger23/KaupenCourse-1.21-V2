@@ -13,6 +13,9 @@
   "item.kaupen-course-v2.fluorite_paxel": "Fluorite Paxel",
   "item.kaupen-course-v2.fluorite_hammer": "Fluorite Hammer",
 
+  "item.kaupen-course-v2.metal_detector": "Metal Detector",
+  "item.kaupen-course-v2.data_tablet": "Data Tablet",
+
   "item.kaupen-course-v2.fluorite_helmet": "Fluorite Helmet",
   "item.kaupen-course-v2.fluorite_chestplate": "Fluorite Chestplate",
   "item.kaupen-course-v2.fluorite_leggings": "Fluorite Leggings",
@@ -49,6 +52,8 @@
   "tooltip.kaupen-course-v2.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",
   "tooltip.kaupen-course-v2.chainsaw.tooltip.1": "This Chainsaw will cut down trees fast!",
   "tooltip.kaupen-course-v2.chainsaw.tooltip.2": "§oChainsaw go vrooom!§r",
+
+  "item.kaupen-course-v2.metal_detector.no_valuables": "No valuables found!",
 
   "tooltip.kaupen-course-v2.magic_block.tooltip.1": "This block is §9magical§r!",
   "tooltip.kaupen-course-v2.strawberry.tooltip.1": "Tastes great!"
