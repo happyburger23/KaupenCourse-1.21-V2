@@ -5,6 +5,9 @@
   "block.kaupen-course-v2.fluorite_block": "Fluorite Block",
   "block.kaupen-course-v2.fluorite_deepslate_ore": "Fluorite Deepslate Ore",
   "block.kaupen-course-v2.fluorite_ore": "Fluorite Ore",
+  "block.kaupen-course-v2.fluorite_nether_ore": "Fluorite Nether Ore",
+  "block.kaupen-course-v2.fluorite_end_ore": "Fluorite End Ore",
+
 
   "itemGroup.fluorite_items": "Fluorite Items",
   "itemGroup.fluorite_blocks": "Fluorite Blocks"

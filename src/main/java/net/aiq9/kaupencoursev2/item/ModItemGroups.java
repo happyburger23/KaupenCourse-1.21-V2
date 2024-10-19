@@ -30,6 +30,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLUORITE_BLOCK);
                         entries.add(ModBlocks.FLUORITE_ORE);
                         entries.add(ModBlocks.FLUORITE_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.FLUORITE_NETHER_ORE);
+                        entries.add(ModBlocks.FLUORITE_END_ORE);
 
                         entries.add(Blocks.AMETHYST_BLOCK);
                         entries.add(Blocks.AMETHYST_CLUSTER);

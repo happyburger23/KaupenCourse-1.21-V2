@@ -26,6 +26,16 @@ public class ModBlocks {
                     AbstractBlock.Settings.create()
                             .sounds(BlockSoundGroup.DEEPSLATE).strength(6f).requiresTool()));
 
+    public static final Block FLUORITE_NETHER_ORE = registerBlock("fluorite_nether_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 7),
+                    AbstractBlock.Settings.create()
+                            .sounds(BlockSoundGroup.NETHER_GOLD_ORE).strength(6f).requiresTool()));
+
+    public static final Block FLUORITE_END_ORE = registerBlock("fluorite_end_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(6, 8),
+                    AbstractBlock.Settings.create()
+                            .sounds(BlockSoundGroup.STONE).strength(6f).requiresTool()));
+
     //---BLOCK HELPER METHODS
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
