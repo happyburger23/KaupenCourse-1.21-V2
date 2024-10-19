@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "kaupen-course-v2:block/fluorite_block",
+    "side": "kaupen-course-v2:block/fluorite_block",
+    "top": "kaupen-course-v2:block/fluorite_block"
+  }
+}

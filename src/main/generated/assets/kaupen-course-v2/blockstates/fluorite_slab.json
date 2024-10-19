@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kaupen-course-v2:block/fluorite_slab"
+    },
+    "type=double": {
+      "model": "kaupen-course-v2:block/fluorite_block"
+    },
+    "type=top": {
+      "model": "kaupen-course-v2:block/fluorite_slab_top"
+    }
+  }
+}

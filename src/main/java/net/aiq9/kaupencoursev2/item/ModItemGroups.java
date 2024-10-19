@@ -31,10 +31,14 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.FLUORITE_BLOCK))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.FLUORITE_BLOCK);
+                        entries.add(ModBlocks.FLUORITE_STAIRS);
+                        entries.add(ModBlocks.FLUORITE_SLAB);
+
                         entries.add(ModBlocks.FLUORITE_ORE);
                         entries.add(ModBlocks.FLUORITE_DEEPSLATE_ORE);
                         entries.add(ModBlocks.FLUORITE_NETHER_ORE);
                         entries.add(ModBlocks.FLUORITE_END_ORE);
+
                         entries.add(ModBlocks.MAGIC_BLOCK);
 
                         entries.add(Blocks.AMETHYST_BLOCK);
