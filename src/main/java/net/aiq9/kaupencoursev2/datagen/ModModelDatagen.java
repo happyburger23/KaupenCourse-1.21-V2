@@ -52,5 +52,10 @@ public class ModModelDatagen extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FLUORITE_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.FLUORITE_PAXEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.FLUORITE_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.FLUORITE_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FLUORITE_CHEST_PLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FLUORITE_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FLUORITE_BOOTS, Models.GENERATED);
     }
 }
