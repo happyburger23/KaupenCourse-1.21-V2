@@ -26,6 +26,9 @@ public class ModModelDatagen extends FabricModelProvider {
         fluoriteTexturePool.fenceGate(ModBlocks.FLUORITE_FENCE_GATE);
         fluoriteTexturePool.wall(ModBlocks.FLUORITE_WALL);
 
+        blockStateModelGenerator.registerDoor(ModBlocks.FLUORITE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.FLUORITE_TRAPDOOR);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLUORITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLUORITE_DEEPSLATE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLUORITE_NETHER_ORE);

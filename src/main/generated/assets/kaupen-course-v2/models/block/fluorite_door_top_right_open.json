@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "kaupen-course-v2:block/fluorite_door_bottom",
+    "top": "kaupen-course-v2:block/fluorite_door_top"
+  }
+}

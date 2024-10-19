@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"net.aiq9.kaupencoursev2.KaupenCourseV2DataGenerator"
+		],
+		"client": [
+			"net.aiq9.kaupencoursev2.KaupenCourveV2Client"
 		]
 	},
 	"mixins": [
