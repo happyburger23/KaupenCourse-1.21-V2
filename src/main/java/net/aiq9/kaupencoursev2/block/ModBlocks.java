@@ -39,7 +39,7 @@ public class ModBlocks {
                             .sounds(BlockSoundGroup.STONE).strength(6f).requiresTool()));
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
-            new MagicBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.ANVIL).strength(1f).requiresTool()));
+            new MagicBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.SCULK).strength(1f).requiresTool()));
 
     //---BLOCK HELPER METHODS
     private static Block registerBlock(String name, Block block) {
