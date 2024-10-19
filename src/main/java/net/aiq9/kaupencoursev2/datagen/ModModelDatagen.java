@@ -20,6 +20,8 @@ public class ModModelDatagen extends FabricModelProvider {
 
         fluoriteTexturePool.stairs(ModBlocks.FLUORITE_STAIRS);
         fluoriteTexturePool.slab(ModBlocks.FLUORITE_SLAB);
+        fluoriteTexturePool.button(ModBlocks.FLUORITE_BUTTON);
+        fluoriteTexturePool.pressurePlate(ModBlocks.FLUORITE_PRESSURE_PLATE);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLUORITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLUORITE_DEEPSLATE_ORE);
