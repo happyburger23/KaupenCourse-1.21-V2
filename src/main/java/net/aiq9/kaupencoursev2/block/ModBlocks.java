@@ -3,6 +3,7 @@ package net.aiq9.kaupencoursev2.block;
 import net.aiq9.kaupencoursev2.KaupenCourseV2;
 import net.aiq9.kaupencoursev2.block.custom.FluoriteLampBlock;
 import net.aiq9.kaupencoursev2.block.custom.MagicBlock;
+import net.aiq9.kaupencoursev2.block.custom.StrawberryCropBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -70,9 +71,16 @@ public class ModBlocks {
     public static final Block FLUORITE_TRAPDOOR = registerBlock("fluorite_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool().nonOpaque()));
 
+    public static final Block STRAWBERRY_CROP = registerBlockWithoutBlockItem("strawberry_crop",
+            new StrawberryCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
     //---BLOCK HELPER METHODS
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
+        return Registry.register(Registries.BLOCK, Identifier.of(KaupenCourseV2.MOD_ID, name), block);
+    }
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(KaupenCourseV2.MOD_ID, name), block);
     }
 

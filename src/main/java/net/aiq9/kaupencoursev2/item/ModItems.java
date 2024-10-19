@@ -1,6 +1,7 @@
 package net.aiq9.kaupencoursev2.item;
 
 import net.aiq9.kaupencoursev2.KaupenCourseV2;
+import net.aiq9.kaupencoursev2.block.ModBlocks;
 import net.aiq9.kaupencoursev2.item.custom.*;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -21,6 +22,11 @@ public class ModItems {
 
     public static final Item STARLIGHT_ASHES = registerItem("starlight_ashes", new Item(new Item.Settings()));
     public static final Item CHAINSAW = registerItem("chainsaw", new ChainsawItem(new Item.Settings().maxCount(1)));
+
+    //strawberry seeds and item
+    public static final Item STRAWBERRY_SEEDS = registerItem("strawberry_seeds",
+            new AliasedBlockItem(ModBlocks.STRAWBERRY_CROP, new Item.Settings()));
+
     public static final Item STRAWBERRY = registerItem("strawberry", new Item(new Item.Settings().food(ModFoodComponents.STRAWBERRY)) {
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {

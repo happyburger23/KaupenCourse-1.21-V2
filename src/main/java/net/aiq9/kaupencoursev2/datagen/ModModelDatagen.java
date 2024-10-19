@@ -2,6 +2,7 @@ package net.aiq9.kaupencoursev2.datagen;
 
 import net.aiq9.kaupencoursev2.block.ModBlocks;
 import net.aiq9.kaupencoursev2.block.custom.FluoriteLampBlock;
+import net.aiq9.kaupencoursev2.block.custom.StrawberryCropBlock;
 import net.aiq9.kaupencoursev2.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -16,7 +17,6 @@ public class ModModelDatagen extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        //blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLUORITE_BLOCK);
         BlockStateModelGenerator.BlockTexturePool fluoriteTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FLUORITE_BLOCK);
 
         fluoriteTexturePool.stairs(ModBlocks.FLUORITE_STAIRS);
@@ -42,6 +42,8 @@ public class ModModelDatagen extends FabricModelProvider {
 
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.FLUORITE_LAMP)
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(FluoriteLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
+
+        blockStateModelGenerator.registerCrop(ModBlocks.STRAWBERRY_CROP, StrawberryCropBlock.AGE, 0, 1, 2, 3, 4, 5);
     }
 
     @Override
@@ -69,6 +71,5 @@ public class ModModelDatagen extends FabricModelProvider {
         itemModelGenerator.register(ModItems.KAUPEN_SMITHING_TEMPLATE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.HANDHELD);
-        //itemModelGenerator.register(ModItems.DATA_TABLET, Models.HANDHELD);
     }
 }

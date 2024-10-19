@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "kaupen-course-v2:block/strawberry_crop_stage3"
+  }
+}

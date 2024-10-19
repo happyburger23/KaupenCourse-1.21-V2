@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.FLUORITE);
                         entries.add(ModItems.CHAINSAW);
                         entries.add(ModItems.STRAWBERRY);
+                        entries.add(ModItems.STRAWBERRY_SEEDS);
                         entries.add(ModItems.STARLIGHT_ASHES);
 
                         entries.add(ModItems.METAL_DETECTOR);
@@ -73,7 +74,6 @@ public class ModItemGroups {
 
     public static void registerModItemGroups() {
         KaupenCourseV2.LOGGER.info("Registering Mod Item Groups for " + KaupenCourseV2.MOD_ID);
-
         //ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::customIngredients);
     }
 }
