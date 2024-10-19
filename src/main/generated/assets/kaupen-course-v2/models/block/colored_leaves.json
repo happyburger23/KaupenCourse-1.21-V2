@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "kaupen-course-v2:block/colored_leaves"
+  }
+}

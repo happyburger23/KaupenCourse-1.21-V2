@@ -79,6 +79,9 @@ public class ModBlocks {
     public static final Block DAHLIA = registerBlock("dahlia", new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 10, AbstractBlock.Settings.copy(Blocks.ALLIUM)));
     public static final Block POTTED_DAHLIA = registerBlockWithoutBlockItem("potted_dahlia", new FlowerPotBlock(ModBlocks.DAHLIA, AbstractBlock.Settings.copy(Blocks.POTTED_ALLIUM)));
 
+    public static final Block COLORED_LEAVES = registerBlock("colored_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
+
     //---BLOCK HELPER METHODS
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
