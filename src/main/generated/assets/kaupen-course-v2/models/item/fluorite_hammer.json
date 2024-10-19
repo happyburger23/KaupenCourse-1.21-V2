@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "kaupen-course-v2:item/fluorite_hammer"
+  }
+}

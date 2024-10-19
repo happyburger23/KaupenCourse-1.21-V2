@@ -1,4 +1,4 @@
-// 1.21	2024-10-19T10:35:10.482452	Kaupen Course 1.21 Version 2/Model Definitions
+// 1.21	2024-10-19T10:51:08.659546	Kaupen Course 1.21 Version 2/Model Definitions
 bdd6c5687934f7ad4d9a7787971d76d5351f634f assets/kaupen-course-v2/models/item/fluorite_nether_ore.json
 e8667d432b87a2946e0ea7c9383a2792d0ab9b3d assets/kaupen-course-v2/models/item/starlight_ashes.json
 1748f4c0840103bc812c39e5cdcce3559e526ce1 assets/kaupen-course-v2/models/item/fluorite_deepslate_ore.json
@@ -14,13 +14,14 @@ f6cd5696abafaf780bb0f1bebc1c38dd2da22968 assets/kaupen-course-v2/models/block/fl
 9d97bd1cd27f5a588e68f8f168760f8c8e26c0e7 assets/kaupen-course-v2/models/block/fluorite_button_pressed.json
 9bde4676b901ffed9ad83351feebe35c4b43d693 assets/kaupen-course-v2/models/item/fluorite_slab.json
 71b25553461abf6a9a3451089295e0acce567f3f assets/kaupen-course-v2/models/block/fluorite_wall_side_tall.json
+1ff590bf5755a8681bea711a310f1770aa46cc40 assets/kaupen-course-v2/models/item/fluorite_hammer.json
 6206201dfea63a11bf94ad7253e9ee68235b7d60 assets/kaupen-course-v2/models/block/fluorite_door_bottom_left_open.json
 cd116c4a688ee7dac1cfbc46b456236ad107ce21 assets/kaupen-course-v2/models/block/fluorite_slab.json
 55ac4a396345ba1f7271dbd197af85081f40b0fd assets/kaupen-course-v2/models/item/fluorite_trapdoor.json
 23fd0bc19844dd47776093b1bc30a79ee4454e2d assets/kaupen-course-v2/models/item/fluorite_end_ore.json
 c9a4b5212e9b034160f8446d624b14295020071e assets/kaupen-course-v2/models/block/fluorite_button.json
-552f266fd5ba86ba92d74409139e22bea6ef6f1b assets/kaupen-course-v2/models/item/strawberry.json
 76fc960a75fe9e6fc24b878938c56151b198c668 assets/kaupen-course-v2/models/item/fluorite_paxel.json
+552f266fd5ba86ba92d74409139e22bea6ef6f1b assets/kaupen-course-v2/models/item/strawberry.json
 63f28e0af90ffb7d90256ca4b500c3d290979cd5 assets/kaupen-course-v2/models/block/fluorite_trapdoor_top.json
 95e49a0a7ad7095c302150e9dff4a1da4716f24b assets/kaupen-course-v2/blockstates/fluorite_trapdoor.json
 b015d213c7008e6b6165af81f157f33ebbaab43c assets/kaupen-course-v2/models/item/fluorite_fence.json
@@ -75,6 +76,6 @@ ab89c21d40b2552e517e404865be592ef596cea2 assets/kaupen-course-v2/blockstates/flu
 3494ed3ef831709733d417502016c6466a76b46b assets/kaupen-course-v2/models/block/fluorite_fence_gate_open.json
 346105216d1c68ba7ca78eeeb9d3bc6100118150 assets/kaupen-course-v2/models/item/fluorite_pressure_plate.json
 a616ed25c0701990a13289db4098cf0b9f20395c assets/kaupen-course-v2/models/item/fluorite_ore.json
-e029df8b597bafe961ff3cdda1a182eabb68d21a assets/kaupen-course-v2/models/item/fluorite_button.json
 8ada997c7c8dffba94621bd8f776ebecdccd785b assets/kaupen-course-v2/models/block/fluorite_end_ore.json
+e029df8b597bafe961ff3cdda1a182eabb68d21a assets/kaupen-course-v2/models/item/fluorite_button.json
 be29a708774de04a7a4d4535e623bcd24cdf4984 assets/kaupen-course-v2/models/block/fluorite_trapdoor_bottom.json
