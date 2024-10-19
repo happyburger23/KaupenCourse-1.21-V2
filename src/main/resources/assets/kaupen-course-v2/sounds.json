@@ -1,0 +1,14 @@
+{
+  "chainsaw_cut": {
+    "subtitle": "sounds.kaupen-course-v2.chainsaw_cut",
+    "sounds": [
+      "kaupen-course-v2:chainsaw_cut"
+    ]
+  },
+  "chainsaw_pull": {
+    "subtitle": "sounds.kaupen-course-v2.chainsaw_pull",
+    "sounds": [
+      "kaupen-course-v2:chainsaw_pull"
+    ]
+  }
+}

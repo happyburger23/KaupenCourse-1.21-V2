@@ -66,5 +66,8 @@
   "item.kaupen-course-v2.metal_detector.no_valuables": "No valuables found!",
 
   "tooltip.kaupen-course-v2.magic_block.tooltip.1": "This block is §9magical§r!",
-  "tooltip.kaupen-course-v2.strawberry.tooltip.1": "Tastes great!"
+  "tooltip.kaupen-course-v2.strawberry.tooltip.1": "Tastes great!",
+
+  "sounds.kaupen-course-v2.chainsaw_cut": "Chainsaw Sounds",
+  "sounds.kaupen-course-v2.chainsaw_pull": "Pulling Chainsaw Sounds"
 }

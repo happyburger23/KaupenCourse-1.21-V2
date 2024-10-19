@@ -5,6 +5,7 @@ import net.aiq9.kaupencoursev2.component.ModDataComponentTypes;
 import net.aiq9.kaupencoursev2.event.AttackEntityHandler;
 import net.aiq9.kaupencoursev2.item.ModItemGroups;
 import net.aiq9.kaupencoursev2.item.ModItems;
+import net.aiq9.kaupencoursev2.sound.ModSounds;
 import net.aiq9.kaupencoursev2.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
 
@@ -24,6 +25,7 @@ public class KaupenCourseV2 implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemGroups();
 		ModBlocks.registerModBlocks();
+		ModSounds.registerSounds();
 
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600); //log 300, coal 1600
 
